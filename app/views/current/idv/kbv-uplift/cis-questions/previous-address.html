@@ -51,10 +51,19 @@
                         id: "address-line-2",
                         name: "address-line-2"
                     }) }}
-                    
+
                     {{ govukInput({
                         label: {
-                            text: "Postcode"
+                            text: "Town or city"
+                        },
+                        classes: "govuk-!-width-two-thirds",
+                        id: "address-town",
+                        name: "address-town"
+                    }) }}
+
+                    {{ govukInput({
+                        label: {
+                            text: "Postcode (optional)"
                         },
                         classes: "govuk-input--width-10",
                         id: "address-postcode",
