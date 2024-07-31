@@ -1,1 +1,5 @@
-@import "/Users/victor.ivan/Documents/prototypes/kbv-prototype/node_modules/govuk-frontend/govuk-prototype-kit/init.scss";
+$govuk-extensions-url-context: "/manage-prototype/dependencies";
+$govuk-plugins-url-context: "/manage-prototype/dependencies";
+$govuk-prototype-kit-major-version: 13;
+$govuk-suppressed-warnings: (legacy-colour-param);
+@import "/Users/ben.raine/Documents/updates/new/kbv-prototype/node_modules/govuk-prototype-kit/node_modules/govuk-frontend/dist/govuk-prototype-kit/init.scss";
